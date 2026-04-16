@@ -1,13 +1,1 @@
 streamlit==1.49.1
-google-cloud-aiplatform[adk,agent_engines]==1.115.0
-google-genai==1.38.0
-google-auth==2.40.3
-google-api-core==2.25.1
-pandas==2.3.2
-numpy==2.3.3
-pydantic==2.11.9
-pydantic-core==2.33.2
-cloudpickle==3.1.1
-protobuf==6.32.1
-pydeck==0.9.1
-altair==5.5.0

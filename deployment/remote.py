@@ -43,18 +43,23 @@ flags.mark_bool_flags_as_mutual_exclusive(
 
 def create() -> None:
     """Creates a new deployment."""
-    # First wrap the agent in AdkApp
+    requirements = [
+        "google-cloud-aiplatform[adk,agent_engines]==1.115.0",
+        "google-genai==1.38.0",
+        "pydantic==2.11.9",
+        "python-dotenv==1.1.1",
+        "absl-py==2.3.1",
+        "cloudpickle==3.1.1",
+    ]
+
     app = reasoning_engines.AdkApp(
         agent=root_agent,
         enable_tracing=True,
     )
 
-    # Now deploy to Agent Engine
     remote_app = agent_engines.create(
         agent_engine=app,
-        requirements=[
-            "google-cloud-aiplatform[adk,agent_engines]",
-        ],
+        requirements=requirements,
         extra_packages=["./proto_1"],
     )
     print(f"Created remote app: {remote_app.resource_name}")

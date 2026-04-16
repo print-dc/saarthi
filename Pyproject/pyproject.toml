@@ -20,7 +20,7 @@ absl-py = "^2.1.0"
 cloudpickle = "^3.0.0"
 
 [tool.poetry.scripts]
-deploy-local = "deployment.local:main"
+deploy-remote = "deployment.remote:main"
 
 [build-system]
 requires = ["poetry-core"]
