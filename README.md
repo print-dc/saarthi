@@ -8,9 +8,12 @@ An AI-powered conversational system that detects user emotions and provides cont
 
 ## 📸 Demo
 
-<p align="center">
-  <img src="images/saarthi UI.png" alt="Saarthi Demo" width="800"/>
-</p>
+<img width="959" height="449" alt="saarthi UI" src="https://github.com/user-attachments/assets/1c56fe3e-7de0-444b-ae89-9ec102011b79" />
+
+
+
+
+
 
 ---
 
