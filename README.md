@@ -1,3 +1,5 @@
+
+
 # Saarthi
 
 Saarthi is now set up to run in a free local support mode by default. That means you can host the app publicly without paying for Google Cloud or Vertex AI.
@@ -55,7 +57,9 @@ DEFAULT_REGION = "india"
 
 ## Optional Vertex AI mode
 
-If you later want a cloud-backed model again, set:
+If you later want a cloud-backed model again, set:<img width="959" height="449" alt="saarthi UI" src="https://github.com/user-attachments/assets/99a8c278-2ad0-4ec3-9de6-ee265750a456" />
+<img width="959" height="449" alt="saarthi UI" src="https://github.com/user-attachments/assets/38633312-b974-4374-afd6-a43766ae6a73" />
+
 
 ```toml
 SAARTHI_MODE = "vertex"
